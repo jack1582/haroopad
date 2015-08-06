@@ -18,6 +18,14 @@ Haroopad gives you the same editing experience regardless of the platform you ar
 * Added new code language & themes - [reference](http://pad.haroopress.com/page.html?f=how-to-write-fenced-code-block)
   - total 112 languages(swift, gradle ...) and 49 themes
 
+### 中文字符问题处理
+
+* goto C:\Users\%user%\AppData\Local\Haroopad\Themes\editor
+* add this font-family: "微软雅黑", "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, sans-serif !important; to editor{} closure in css file.
+* well, at last reatart your haroop pad
+* have fun!
+
+
 ### More changelog
 
 * Bugs
